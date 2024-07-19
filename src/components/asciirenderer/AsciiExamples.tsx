@@ -1,3 +1,4 @@
+"use client";
 import {  useState} from "react";
 import { useSpring } from '@react-spring/web';
 import {  Center, Float, Image, SpotLight, Text, Billboard } from '@react-three/drei';
