@@ -16,7 +16,7 @@ interface IInternalSceneProps {
 
 const KText = (props: any) => {
   return (
-    <Text {...props} font='http://fonts.gstatic.com/s/orbitron/v7/2I3-8i9hT294TE_pyjy9SaCWcynf_cDxXwCLxiixG1c.ttf'/>
+    <Text {...props} font='https://fonts.gstatic.com/s/orbitron/v7/2I3-8i9hT294TE_pyjy9SaCWcynf_cDxXwCLxiixG1c.ttf'/>
   )
 }
 
