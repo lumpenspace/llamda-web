@@ -1,4 +1,4 @@
-const FooterLink = ({ href, children }) => (
+const FooterLink = ({ href, children }:{ href: string, children: React.ReactNode }) => (
   <a className="text-green-500 hover:bg-green-600 hover:text-white" target='_blank' href={href}>
     {children}
   </a>

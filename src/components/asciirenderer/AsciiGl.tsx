@@ -83,7 +83,7 @@ export class AsciiGl extends Effect {
         }
     }
     /** Draws the characters on a Canvas and returns a texture */
-    public createCharactersTexture(characters: string, fontSize: number): THREE.Texture {
+    public createCharactersTexture(characters: string, fontSize: number): Texture {
         const canvas = document.createElement('canvas');
 
         const SIZE = 1024;

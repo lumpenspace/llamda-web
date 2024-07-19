@@ -14,11 +14,6 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@camwiegert/typical@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@camwiegert/typical/-/typical-0.1.1.tgz#c75d3b658e2f542d113c3e266389794c7dc45d6d"
-  integrity sha512-4xAtH3F3uJ8boe9IPahdYFCBELmyOBwHGAn0rDO6C1rx0TuZb5f4UqfuiOQF7YiMJGCOsUIW7LyucMNnVQYsRg==
-
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -356,11 +351,6 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.3.tgz#391d528054f758f81e53210f1a1eebcf1a8b1d20"
   integrity sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==
 
-"@sister.software/asciify@^3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@sister.software/asciify/-/asciify-3.1.3.tgz#386d4c459433fa50e80ff07b7770e734e8f15f10"
-  integrity sha512-sRWHJ2LrSzkloP3EZTh5e4RL285yBc2eqYc+AqtgH8+8W6dEZoTjBK0mI513wKbkuLOHbetWY0OZ2A4hu8FYEQ==
-
 "@swc/counter@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@swc/counter/-/counter-0.1.3.tgz#cc7463bd02949611c6329596fccd2b0ec782b0e9"
@@ -424,13 +414,6 @@
   version "0.28.8"
   resolved "https://registry.yarnpkg.com/@types/react-reconciler/-/react-reconciler-0.28.8.tgz#e51710572bcccf214306833c2438575d310b3e98"
   integrity sha512-SN9c4kxXZonFhbX4hJrZy37yw9e7EIxcpHCxQv5JUS18wDE5ovkQKlqQEkufdJCCMfuI9BnjUJvhYeJ9x5Ra7g==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react-typical@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@types/react-typical/-/react-typical-0.1.2.tgz#353f6483d1a15bdcac245d2be55d25782b606a76"
-  integrity sha512-MYZ0BresAchZufWWeSjx9FV/vEJKtlxP/+uAYiVmgJOM2uFXiIhCTB2UWpIqQG17cVHsl+iYNicqFvok1p1VZg==
   dependencies:
     "@types/react" "*"
 
@@ -1460,11 +1443,6 @@ fflate@~0.8.2:
   resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.8.2.tgz#fc8631f5347812ad6028bbe4a2308b2792aa1dea"
   integrity sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==
 
-figlet@^1.6.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/figlet/-/figlet-1.7.0.tgz#46903a04603fd19c3e380358418bb2703587a72e"
-  integrity sha512-gO8l3wvqo0V7wEFLXPbkX83b7MVjRrk1oRLfYlZXol8nEpb/ON9pcKLI4qpBv5YtOTfrINtqb7b40iYY2FTWFg==
-
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -2130,11 +2108,6 @@ lru-cache@^10.2.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
   integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
-lucide-react@^0.408.0:
-  version "0.408.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.408.0.tgz#9a430cc956add611261093f8e5deac46e52a77d5"
-  integrity sha512-8kETAAeWmOvtGIr7HPHm51DXoxlfkNncQ5FZWXR+abX8saQwMYXANWIkUstaYtcKSo/imOe/q+tVFA8ANzdSVA==
-
 maath@^0.10.7:
   version "0.10.8"
   resolved "https://registry.yarnpkg.com/maath/-/maath-0.10.8.tgz#cf647544430141bf6982da6e878abb6c4b804e24"
@@ -2501,7 +2474,7 @@ postcss@^8, postcss@^8.4.23:
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
 
-postprocessing@^6.32.1, postprocessing@^6.35.6:
+postprocessing@^6.32.1:
   version "6.35.6"
   resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.35.6.tgz#2289dbd7757279436a34a686da72dcbc66e53b68"
   integrity sha512-df0K1zofbBCYcHDFmJtAw9TgyPJu6eITBG0iJeUBcNLagi0EwLBVl1tib+ypYYjChojhiNaib16mRwvu9ZoJIA==
@@ -2543,13 +2516,6 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-ascii-text@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/react-ascii-text/-/react-ascii-text-0.0.4.tgz#bcd78a46e9ac11276da0e8a495275f33a82a9aa6"
-  integrity sha512-eELnCyECQpMvvpmk1i+qFcjtTRyQg8tcp0VbdAvCKv54H/+B8NlbhcRnO+YzTzmWewhprAqdqShM33uHlu7OwA==
-  dependencies:
-    figlet "^1.6.0"
-
 react-composer@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/react-composer/-/react-composer-5.0.3.tgz#7beb9513da5e8687f4f434ea1333ef36a4f3091b"
@@ -2577,13 +2543,6 @@ react-reconciler@^0.27.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.21.0"
-
-react-typical@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/react-typical/-/react-typical-0.1.3.tgz#c56e607a8e435b6f8a23eb5eaaf00768e35be06d"
-  integrity sha512-VynIYVQvAZ1Nco4C+QNEqR17STGK/xw6Dc1zNj/LuYm8fISw1Qp3q9n3hv6O3iQDLD0OWwdWKHun5oj6mCMB4A==
-  dependencies:
-    "@camwiegert/typical" "^0.1.1"
 
 react-use-measure@^2.1.1:
   version "2.1.1"
@@ -3013,11 +2972,6 @@ thenify-all@^1.0.0:
   integrity sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==
   dependencies:
     any-promise "^1.0.0"
-
-three-asciieffect@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/three-asciieffect/-/three-asciieffect-1.0.1.tgz#dcb93fb959f8f780fca331379cfeb95fc97077fd"
-  integrity sha512-J3SErob8P3cX3YQfbGjQuPtDB11oJCCPcV/IuYw6l12MWpRpnmtCluzI4lcQ6zk60ImUrF0trt7z1tJNyGeGuQ==
 
 three-mesh-bvh@^0.7.0:
   version "0.7.6"

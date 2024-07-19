@@ -4,9 +4,7 @@ import { AsciiBG } from '@/components/asciirenderer/AsciiExamples';
 
 const Home = () => {
   return (
-    <>
       <AsciiBG />
-    </>
   );
 };
   export default Home;
