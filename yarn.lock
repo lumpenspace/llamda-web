@@ -2531,6 +2531,11 @@ react-dom@^18:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
+react-hook-absolute-orientation@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-hook-absolute-orientation/-/react-hook-absolute-orientation-0.0.3.tgz#abfd5c7b93dce44d61b79355524986712111f35e"
+  integrity sha512-aPP+GW87NZ0J8IYFn94yffqwNUqF2fkFw4Nhp1YorUW6Ie/q8xH2bqkOZ6tnbbGwVo3xpjAnPKFjK8EK6aexlg==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
